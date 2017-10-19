@@ -17,6 +17,10 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
+    // Suporte ao databing
+    dataBinding {
+        enabled = true
+    }
 }
 
 dependencies {
